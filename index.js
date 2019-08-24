@@ -3,7 +3,7 @@ const sleep = function(seco) {
     return new Promise(
         resolve => {
             setTimeout(
-                 ()=>pesolve(true),
+                 ()=>resolve(true),
                  seco*1000
             );
         }
