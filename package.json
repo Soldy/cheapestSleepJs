@@ -1,6 +1,6 @@
 {
   "name": "cheapest-sleep",
-  "version": "0.99.0-alpha0",
+  "version": "0.99.0-alpha1",
   "description": "initalizer Start Stop manager",
   "main": "index.js",
   "scripts": {
@@ -15,9 +15,12 @@
     "initailaizer",
     "starter"
   ],
-  "author": "Soldy",
-  "license": "GPLv3",
+  "author": "Soldy <npmjs@gidigi.com> (http://gidigi.com)",
+  "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/Soldy/cheapestSleepJs/issues"
+  },
+  "devDependencies": {
+    "nanoTest": "0.9.9-beta31"
   }
 }
